@@ -1,0 +1,7 @@
+ec2:1.36
+github-branch-source:2.0.7
+job-dsl:1.64
+parallel-test-executor:1.9
+pipeline-maven:2.5.0
+timestamper:1.8.8
+workflow-aggregator:2.5
