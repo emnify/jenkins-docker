@@ -5,7 +5,7 @@ This project is inspired by Torben Knerr's [jenkins-pipes-infra](https://github.
 
 ## Running the Container
 
-    docker run -p 8080:8080 emnify/jenkins-docker:latest
+    docker run -p 8080:8080 emnify/jenkins:latest
 
 For further information, consult the documentation of the [jenkinsci/jenkins container](https://github.com/jenkinsci/docker/blob/master/README.md)
 
