@@ -1,7 +1,7 @@
 ec2:1.36
-github-branch-source:2.0.8
+github-branch-source:2.2.3
 job-dsl:1.64
-pipeline-maven:2.5.0
+pipeline-maven:2.5.2
 timestamper:1.8.8
 workflow-aggregator:2.5
 parameterized-trigger:2.35.1
