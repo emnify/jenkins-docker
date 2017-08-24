@@ -4,3 +4,4 @@ job-dsl:1.64
 pipeline-maven:2.5.0
 timestamper:1.8.8
 workflow-aggregator:2.5
+parameterized-trigger:2.35.1
