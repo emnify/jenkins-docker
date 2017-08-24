@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.60.1
+FROM jenkinsci/jenkins:2.60.3
 
 # skip the setup wizard
 ENV JAVA_ARGS -Djenkins.install.runSetupWizard=false
@@ -7,6 +7,8 @@ ENV JAVA_ARGS -Djenkins.install.runSetupWizard=false
 RUN mkdir -p /usr/share/jenkins/ref/jobs/seed-job
 COPY seedJob.xml /usr/share/jenkins/ref/jobs/seed-job/config.xml
 
+# install fork of parallel-test-executor plugin
+RUN mkdir -p /usr/share/jenkins/ref/plugins/ && wget https://github.com/StephenKing/parallel-test-executor-plugin/releases/download/1.10-SNAPSHOT-JENKINS-46028-primary-job-fallback-1/parallel-test-executor.hpi -O /usr/share/jenkins/ref/plugins/parallel-test-executor.jpi
 
 # install plugins
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
