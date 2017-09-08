@@ -1,3 +1,4 @@
+blueocean:1.2.0
 ec2:1.36
 github-branch-source:2.2.3
 job-dsl:1.64
