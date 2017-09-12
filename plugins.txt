@@ -6,3 +6,4 @@ pipeline-maven:2.5.2
 timestamper:1.8.8
 workflow-aggregator:2.5
 parameterized-trigger:2.35.1
+pipeline-aws:1.13
