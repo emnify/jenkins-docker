@@ -19,5 +19,3 @@ For further information, consult the documentation of the [jenkinsci/jenkins con
 
 To trigger a new build, create a tag (`<jenkinsVersion>-<iteration>`, e.g. `2.60.1-3` for our 3rd try with Jenkins 2.60.1).
 The automated build at Docker Hub will then automatically process this.
-
-
