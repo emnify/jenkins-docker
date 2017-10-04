@@ -8,3 +8,4 @@ workflow-aggregator:2.5
 parameterized-trigger:2.35.1
 pipeline-aws:1.15
 pipeline-utility-steps:1.4.1
+github-oauth:0.27
