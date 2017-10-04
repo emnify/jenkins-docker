@@ -1,11 +1,11 @@
 blueocean:1.2.0
 ec2:1.36
 github-branch-source:2.2.3
+github-oauth:0.27
 job-dsl:1.64
-pipeline-maven:2.5.2
-timestamper:1.8.8
-workflow-aggregator:2.5
 parameterized-trigger:2.35.1
 pipeline-aws:1.15
+pipeline-maven:2.5.2
 pipeline-utility-steps:1.4.1
-github-oauth:0.27
+timestamper:1.8.8
+workflow-aggregator:2.5
