@@ -8,6 +8,7 @@ parameterized-trigger:2.35.2
 pipeline-aws:1.18
 pipeline-maven:3.0.5
 pipeline-utility-steps:1.5.1
+prometheus:1.1.0
 slack:2.3
 timestamper:1.8.8
 workflow-aggregator:2.5
