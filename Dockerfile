@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.73.3
+FROM jenkinsci/jenkins:2.107.2
 
 # skip the setup wizard
 ENV JAVA_ARGS -Djenkins.install.runSetupWizard=false
