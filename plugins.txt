@@ -1,14 +1,14 @@
 ansicolor:0.5.2
-blueocean:1.6.1
+blueocean:1.6.2
 docker-workflow:1.14 # 1.15 breaks for API builds JENKINS-49446
 ec2:1.39
 github-branch-source:2.3.6
 github-oauth:0.29
 greenballs:1.15
-job-dsl:1.69
+job-dsl:1.70
 parameterized-trigger:2.35.2
 pipeline-aws:1.27
-pipeline-maven:3.5.8
+pipeline-maven:3.5.9
 pipeline-utility-steps:2.1.0
 prometheus:1.2.2
 slack:2.3
