@@ -1,3 +1,4 @@
+ansicolor:0.5.2
 blueocean:1.6.1
 docker-workflow:1.14 # 1.15 breaks for API builds JENKINS-49446
 ec2:1.39
